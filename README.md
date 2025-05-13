@@ -1,12 +1,32 @@
-# Weather Forecast App
+# 🌦️ Weather App
 
-A simple weather app built with **React** and **WeatherAPI**. It allows users to search for weather by city and view current conditions as well as hourly forecasts.
+A sleek and responsive weather application that allows users to search for any city and view its current weather conditions, temperature, and forecast.
 
-## Features
+## 🔍 Features
 
-- Search for weather by city name.
-- View current temperature and weather conditions.
-- View hourly weather forecast with smooth scrolling functionality.
+- 🌐 **Search by City:** Instantly fetch weather data by entering the city name.
+- 🌡️ **Current Temperature:** Displays the real-time temperature of the searched location.
+- ☁️ **Current Weather Status:** Shows weather conditions like clear, cloudy, rainy, etc.
+- 📅 **Forecast:** Provides upcoming weather forecasts (daily or hourly depending on your setup).
 
-## Usage
-Type a city name in the search bar and press Enter or click the Search button to view the weather.
+## ⚙️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **OpenWeatherMap API** (or whichever weather API you're using)
+- **Vite** (for lightning-fast development)
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/weather-app.git
+
+# Navigate into the project directory
+cd weather-app
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
